@@ -1,0 +1,115 @@
+* {
+ background-color: var(--main-bg);
+ padding: 0;
+ margin: 0;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+:root{
+ --main-bg: hsl(217, 54%, 11%);
+ --card-bg: hsl(216, 50%, 16%);
+ --line: hsl(215, 32%, 27%);
+ --w: hsl(0, 0%, 100%);
+ --soft-bl: hsl(215, 51%, 70%);
+ --cyan: hsl(178, 100%, 50%);
+}
+body {
+ max-width: 1440px;
+ padding: 0;
+ margin: 0;
+}
+.mainCard {
+ position: absolute;
+ align-content: center;
+ background-color: var(--card-bg);
+ width: 280px;
+ padding: 20px;
+ transform: translate(720px, 30%);
+ border-radius: 15px;
+ box-shadow: 0 0 20px 20px var(--main-bg);
+}
+.nft {
+ width: 280px;
+ border-radius: 5px;
+}
+.header {
+ font-weight: 600;
+ font-size: 20px;
+ background-color: var(--card-bg);
+ color: var(--w);
+ margin: 15px 0;
+}
+.paragraph{
+ background-color: var(--card-bg);
+ color: var(--soft-bl);
+ font-weight: 300;
+ font-size: 18px;
+}
+.curtime{
+ background-color: var(--card-bg);
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ margin: 25px 0;
+}
+.currency {
+ background-color: var(--card-bg);
+ position: relative;
+ justify-content: center;
+}
+svg{
+ background-color: var(--card-bg);
+}
+span {
+ position: relative;
+ bottom: 10%;
+ background-color: var(--card-bg);
+}
+.eth{
+font-size: 16px;
+ color: var(--cyan);
+ font-weight: 600;
+}
+.time{
+ background-color: var(--card-bg);
+ text-align: right;
+ position: relative;
+}
+.days{
+ font-size: 16px;
+ color: var(--soft-bl);
+ font-weight: 300;
+ bottom: 15%;
+}
+hr{
+ border: none;
+ background-color: var(--soft-bl);
+ height: .2px;
+}
+.footer{
+ background-color: var(--card-bg);
+ margin: 20px 0 10px 0;
+}
+
+.footer p {
+ background-color: var(--card-bg);
+ margin-left: 50px;
+ padding: 5px 0 0 0;
+ color: var(--soft-bl);
+}
+.footer img {
+ position: absolute;
+ background-color: var(--card-bg);
+ height: 30px;
+ width: 30px;
+ border: 1px inset white;
+ border-radius: 100%;
+}
+.footer span {
+ color: var(--w);
+}
+
+.attribution {
+ position: absolute;
+ color: var(--w);
+  margin-top: 98vh;
+  margin-left: 40%;
+}
